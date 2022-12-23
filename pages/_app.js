@@ -1,7 +1,12 @@
 import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from "..//components/general/Layout"
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => (
+  <Layout>
+    <Component {...pageProps} />
+  </Layout>
+  
+);
 
 export default MyApp

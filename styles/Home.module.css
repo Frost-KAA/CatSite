@@ -2,6 +2,12 @@
   padding: 0 2rem;
 }
 
+.space{
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -126,4 +132,26 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.list{
+  display: flex;
+  justify-content:space-between;
+  margin: 0px 20px;
+}
+
+.title_small{
+  color: purple;
+  /* color: blue; */
+  font-weight: bold;
+  margin: 0px 40px 10px 40px;
+}
+
+.general{
+  margin: 20px 0px 0px 0px;
+  align-items: center;
+  background-color:  #f0ece3;
+  /* background-color:  red; */
+  box-shadow: 0 2px 4px 0 rgb(142 154 161 / 20%);
+  padding: 15px 100px;
 }

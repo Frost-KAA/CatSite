@@ -1,0 +1,33 @@
+.general{
+    margin: 20px 0px 0px 0px;
+    align-items: center;
+    background-color:  #f0ece3;
+    /* background-color:  red; */
+    box-shadow: 0 2px 4px 0 rgb(142 154 161 / 20%);
+    padding: 15px 140px;
+}
+
+.info{
+	display: flex;
+    flex-wrap: nowrap;
+}
+
+.cat_round{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%; 
+	margin: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.text{
+	margin: 20px 10px;
+	margin-right: 50px;
+}
+
+.title{
+    color: purple;
+    /* color: blue; */
+    font-weight: bold;
+}
